@@ -8,7 +8,7 @@
 /* mobile */
 @media screen and (max-width:765px){
     .nav-links{
-        background-color: red;
+        background-color:  rgb(254, 144, 0);
         height: auto;
         width: 100%;
         display: flex;
