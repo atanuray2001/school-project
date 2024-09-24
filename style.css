@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+
+body {
+    background-image: url(assest/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald", sans-serif;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 10vh;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    /* overflow-x: hidden; */
+    background-color: #523100;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    color: white;
+    margin-left: 15px;
+}
+
+.nav-click{
+    display: none;
+}
+
+.logo img{
+    width: 70px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.swip {
+    height: 70vh;
+    width: 100%;
+}
+
+/* swiper  */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    color: white;
+    scale: .6;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background-color: white;
+}
+
+
+/* welcome */
+.welcome {
+    padding: 50px 0px;
+    height: auto;
+}
+
+.welcome-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.welcome-heading h1 {
+    text-align: center;
+}
+
+.welcome-heading p {
+    width: 100%;
+    text-align: center;
+}
+
+
+.welcome-content {
+    height: auto;
+}
+
+.welcome-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-box p {
+    width: 100%;
+    text-align: center;
+}
+
+.welcome-box i {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+/* welcome end */
+
+
+
+
+
+
+/* our campus */
+.welcome-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.our-campus {
+    padding: 50px 0px;
+}
+/* our campus end */
+
+
+
+/* gallery */
+.gallery-content img {
+    width: 100%;
+}
+
+.gallery {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-head p{
+    text-align: center;
+}
+/* gallery end */
+
+
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    padding: 50px 0px;
+}
+
+.footer{
+    height: 100%;
+}
+
+.company-links p {
+    color: #999999;
+}
+
+.footer-links{
+    height: auto;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 15px;
+}
+
+.footer-icon a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer-links h4{
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.footer-links ul{
+    color: #999999;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+
+/* copyright */
+.copyright{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-size: .8rem;
+}
+
+
